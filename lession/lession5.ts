@@ -19,7 +19,7 @@ let obj = {
     fun: () => {
         console.log("test");
     }
-}
+} 
 
 let {fname: fname2 , fun: fun1} = obj;
 fun1();
